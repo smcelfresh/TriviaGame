@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<title>Trivia Game</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Christmas Trivia</h1>
+    <p class="lead">Once you press the start button, you will have 10 seconds to answer the trivia question.</p>
+    <button id="start" type="button" class="btn btn-primary btn-lg">Start</button>
+    <button id="timer" type="button" class="btn btn-primary btn-lg">Timer</button>
+  </div>
+  <div class="endGame">
+  	<h2 id="question" class="question"></h2>
+  	<h2 id="result" class="result"></h2>
+  	<div id="options">
+	  	<div class="choice" id="A">A</div>
+	  	<div class="choice" id="B">B</div>
+	  	<div class="choice" id="C">C</div>
+	  	<div class="choice" id="D">D</div>
+		</div>
+		<div class="newQuestion">Next question</div>
+	</div>
+</div>
+
+</body>
+<!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="assets/javascript/app.js"></script>
+</html>
